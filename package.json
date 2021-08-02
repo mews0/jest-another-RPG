@@ -1,7 +1,6 @@
 {
   "name": "jest-another-rpg",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "jest"
@@ -18,5 +17,12 @@
   "homepage": "https://github.com/mews0/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^27.0.6"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "description": ""
 }
